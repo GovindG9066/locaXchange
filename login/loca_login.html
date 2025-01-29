@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="loca_login.css">
+</head>
+<body>
+
+  <div class="contaner">
+    <div class="box">
+        <form action="">
+            <h1>Login</h1>
+            <div class="box_input">
+                <input type="text" placeholder="Username">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="box_input">
+                <input type="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="forgot_link">
+                <a href="">forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p>or login with Social media platforms</p>
+            <div class="social_media">
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </form>
+    </div>
+
+    <div class="box Register">
+        <form action="">
+            <h1>Register</h1>
+            <div class="box_input">
+                <input type="text" placeholder="Name">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <div class="box_input">
+                <input type="email" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>           
+            </div>
+
+            <div class="box_input">
+                <input type="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            
+            <button type="submit" class="btn">Register</button>
+            <p>or Register with Social media platforms</p>
+            <div class="social_media">
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </form>
+    </div>
+    <div class="toggle_box">
+        <div class="toggle_panel toggle_left">
+            <h1>Hello, Welcome</h1>
+            <p>Don't have an account?</p>
+            <button type="submit" class="btn Register_btn">Register</button>
+        </div>
+        <div class="toggle_panel toggle_right">
+            <h1>Welcome Back</h1>
+            <p>Already have an account?</p>
+            <button type="submit" class="btn Login_btn">Login</button>
+        </div>
+    </div>
+  </div>
+    <script src="loca_login.js"></script>
+</body>
+</html>
