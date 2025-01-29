@@ -1,0 +1,23 @@
+@media  (max-width: 800px) {
+    .second_ul {
+        overflow-x: auto; 
+        scrollbar-width: none; 
+    }
+    .second_ul::-webkit-scrollbar {
+        display: none; 
+    }
+}
+@media  (max-width: 720px){
+    .home {
+        margin: 10px 0;
+    }
+    .second_inner_nav{
+        height: 50px;
+    }
+    .second_ul .second_ul_items {
+        padding: 5px 15px;
+    }
+    .nav_bar {
+        min-height: 12vh;
+    }
+} 
