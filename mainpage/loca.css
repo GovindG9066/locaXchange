@@ -243,9 +243,89 @@ body{
     
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFA500;
+    width: 5px;
+    border-radius: 50px;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#FF8C00;
+}
 
 
 
 
 /* main section */
+
+.best-deals{
+    /* border: 2px solid red;
+    width: 95vw;
+    margin: 20px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #008080, #00A0A0);
+    padding: 20px;
+    color: white;
+}
+.best-deals .deals-text button{
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 10px;
+    transition: all 0.2s ease-in;
+}
+.best-deals .deals-text button:hover{
+    transform: scale(1.05);
+    font-weight: 600;
+}
+.deal-image img{
+    width: 100%;
+    max-width: 500px;
+}
+.deals-text{
+    width: 50%;
+    font-size: 30px;
+}
+.category-section{
+    border: 2px solid green;
+    width: 95vw;
+    margin: 20px auto;
+}
+.category-section h2{
+    font-size: 35px;
+    margin: 10px ;
+}
+.catagory-product{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.catagory-item{
+    width: 250px;
+    height: 300px;
+    border: 2px solid red;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,rgb(207, 205, 205), lightgray);
+}
+
+.category-section .catagory-product .catagory-item img{
+    width: 300%;
+} 
+.category-section .catagory-product .catagory-item p{
+    position: absolute;
+    z-index: 5;
+    bottom: 15px;
+    left: 5px;
+    font-size: 20px;
+    
+}
 
