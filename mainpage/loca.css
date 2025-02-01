@@ -262,9 +262,6 @@ body{
 /* main section */
 
 .best-deals{
-    /* border: 2px solid red;
-    width: 95vw;
-    margin: 20px auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,7 +301,7 @@ body{
 }
 .catagory-product{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
 }
 .catagory-item{
     width: 250px;
